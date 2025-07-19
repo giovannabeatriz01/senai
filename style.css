@@ -1,0 +1,121 @@
+@import url(./global.css);
+/* impotar o global */
+
+/* -- ------------- Header ------------- -- */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px 0px;
+    background-color: var(--color-neutraul-silver);
+}
+
+.logo-header img {
+    width: 154.49px;
+    height: 24px;
+}
+
+.nav-header ul {
+    display: flex;
+    gap: 50px;
+    list-style: none;
+}
+
+.nav-header ul li a {
+    color: #18191f;
+    font-weight: var(--font-body-2-weight-regular);
+    transition: 0.3s;
+}
+
+.nav-header ul li a:hover {
+    color: var(--color-primary);
+    text-decoration: underline;
+}
+
+.content-btn-heard {
+    display: flex;
+    gap: 14px;
+}
+
+.content-btn-heard button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+
+}
+
+.content-btn-heard .btn-login {
+    background-color: var(--color-neutraul-silver);
+}
+
+.content-btn-heard .btn-login a {
+    color: var(--color-primary);
+}
+
+.content-btn-heard .btn-singUp {
+    background-color: var(--color-primary);
+}
+
+.content-btn-heard .btn-singUp a {
+    color: var(--color-neutraul-silver);
+}
+
+    /* -- ------------- FIM Header ------------- -- */
+
+    /* -- ----------------------- MAIN ----------------------- -- */
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 104px;
+    padding: 96px 0px;
+    background-color: var(--color-neutraul-silver);
+}
+
+.content-hero {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 657px;
+
+}
+
+.content-hero h1 {
+    font-size: var(--font-Headline-1-size);
+}
+
+.content-hero h1 span {
+    color: var(--color-primary);
+}
+
+    /* -- ----------------------- FIM MAIN ----------------------- -- */
+
+    /* <!-- ----------------------- Our Clients ----------------------- -->  */
+
+.our-clients {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    text-align: center;
+    margin: 40px 0px;
+}
+
+.content-our-clients {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.container-logo-clients{
+    display: flex;
+    justify-content: center;
+    gap: 136px;
+    padding: 25px 0px;
+}
+    /* -- ----------------------- Manage System ----------------------- -- */
+
+
+
+    /* -- ----------------------- FIM Manage System ----------------------- -- */

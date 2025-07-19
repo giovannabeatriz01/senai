@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: var(--font-family);
+}
+
+:root {
+    /* ---------- Cores ---------- */
+    --color-neutraul-black: #263238;
+    --color-neutraul-d_grey: #4D4D4D;
+    --color-neutraul-grey: #717171;
+    --color-neutraul-l_grey: #89939E;
+    --color-neutraul-grey_blue: #ABBED1;
+    --color-neutraul-silver: #F5F7FA;
+    --color-neutraul-white: #FFFFFF;
+
+    --color-primary: #4caf4f;
+
+    --color-secondary: #263238;
+
+    --color-info: #263238;
+    
+    --color-shade1: #43A046;
+    --color-shade2: #388E3B;
+    --color-shade3: #237d31;
+    --color-shade4: #1b5e1f;
+    --color-shade5: #103e13;
+
+    --color-tint1:  #66bb69;
+    --color-tint2:  #81c784;
+    --color-tint3:  #A5D6A7;
+    --color-tint4:  #C8E6C9;
+    --color-tint5:  #E8F5E9;
+
+    --color-action-warning:  ##FBC02D;
+    --color-error:  #E53835;
+    --color-action-success:  ##2E7D31;
+
+    /* ----------- Configurações de fontes ---------- */
+    --font-family: "inter";
+    --font-Headline-1-size: 64px;
+    --font-Headline-1-weight: 600;
+
+    --font-Headline-2-size: 36px;
+    --font-Headline-2-weight: 600;
+
+    --font-Headline-3-size: 28px;
+    --font-Headline-3-size: 700;
+
+    --font-Headline-4-size: 20px;
+    --font-Headline-4-weight: 600;
+    
+    --font-body-1-size: 18px;
+    --fonte-body-1-weight: 400;
+
+    --font-body-2-size: 16px;
+    --fonte-body-2-weight: 400;
+
+    --font-body-3-size: 14px;
+    --fonte-body-3-weight: 400;
+
+    --font-body-4-size: 12px;
+    --fonte-body-4-weight: 400;
+
+    --font-body-1-size: 18px;
+    --fonte-body-1-weight-regular: 400;
+    --fonte-body-1-weight-regular: 500;
+
+    --font-body-2-size: 16px;
+    --fonte-body-2-weight-regular: 400;
+    --fonte-body-2-weight-regular: 500;
+
+    --font-body-3-size: 14px;
+    --fonte-body-3-weight-regular: 400;
+    --fonte-body-3-weight-regular: 500;
+
+    --font-body-4-size: 12px;
+    --fonte-body-4-weight-regular: 400;
+    --fonte-body-4-weight-regular: 500;
+}
+
+a {
+    text-decoration: none;
+}
+
+.active-menu {
+    font-weight: 500 !important;
+}
+
+p{
+    color: var(--color-neutraul-grey);
+}
+
+.btn-primary {
+    padding: 14px 32px;
+    border-radius: 4px;
+    background-color: var(--color-primary);
+    align-self: flex-start;
+    margin-top: 16px;
+}
+
+.btn-primary a {
+    color: var(--color-neutraul-white);
+
+}
+
+h2 {
+    color: var(--color-neutraul-d_grey);
+    font-size: var(--font-Headline-2-size);
+    font-weight: var(--font-Headline-2-weight);
+}
